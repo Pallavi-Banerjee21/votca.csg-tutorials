@@ -1,0 +1,22 @@
+syntax: glob
+
+*~
+.*.swp
+*/*/step_*
+*.orig
+
+topol.tpr
+traj.trr
+traj.xtc
+md.log
+mdout.mdp
+state*.cpt
+ener.edr
+confout.gro
+\#*
+
+*.pot.*
+*.force
+angle.dist.*
+bond.dist.*
+*.log
